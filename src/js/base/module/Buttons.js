@@ -22,7 +22,7 @@ export default class Buttons {
     }
 
     if (env.isMac) {
-      shortcut = shortcut.replace('CMD', '⌘').replace('SHIFT', '⇧');
+      shortcut = shortcut.replace('CMD', '\u2318').replace('SHIFT', '\u21E7');
     }
 
     shortcut = shortcut.replace('BACKSLASH', '\\')
